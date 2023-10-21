@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1697683004821",
+      "Action": [
+        "iam:GetUser",
+        "iam:ListUserPolicies"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:iam::account-id-without-hyphens:user/${aws:username}"
+    }
+  ]
+}
