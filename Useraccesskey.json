@@ -1,0 +1,15 @@
+v{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:DeleteAccessKey",
+                "iam:UpdateAccessKey",
+                "iam:CreateAccessKey"
+            ],
+            "Resource": "arn:aws:iam::261420510317:user/Samboy"
+        }
+    ]
+}i
